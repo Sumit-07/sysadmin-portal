@@ -1,0 +1,42 @@
+module.exports = Object.freeze({
+    UserPublicAttributes: [
+      'id',
+      'acc_token',
+      'client_code',
+      'agent_id',
+      'first_name',
+      'last_name',
+      'role',
+      'manager_id',
+      'city',
+      'branch',
+      'country_code',
+      'phone_number',
+      'active',
+    ],
+    FieldAgentPublicAttributes: [
+      'client_code',
+      'agent_id',
+      'first_name',
+      'last_name',
+      'role',
+      'manager_id',
+      'city',
+      'branch',
+      'country_code',
+      'phone_number',
+      'active',
+    ],
+    CustomerPersonalAttributes: [
+        'full_name',
+        'address',
+        'address2',
+        'province',
+        'zipcode',
+        'city',
+        'country',
+        'country_code',
+        'phone_number',
+        'new_phone_number'
+    ]
+});

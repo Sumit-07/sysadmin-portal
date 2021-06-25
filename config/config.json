@@ -1,0 +1,26 @@
+
+{
+  "development": {
+    "username": "root",
+    "password": null,
+    "database": "tvs_digital_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+   
+  },
+  "test": {
+    "username": "admin",
+    "password": "mytestdatabase",
+    "database": "database-1",
+    "host": "database-1.caiiie97tdec.ap-southeast-1.rds.amazonaws.com",
+    "dialect": "mysql"
+   
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "tvs_digital_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}
